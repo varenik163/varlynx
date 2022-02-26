@@ -1,0 +1,19 @@
+{
+  "name": "varlynx",
+  "version": "1.0.0",
+  "description": "My Landing Page project to introduce myself",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21"
+  }
+}
