@@ -1,8 +1,8 @@
 const helpers = require('../helpers');
 
 type Handlers = {
-    index?: Function,
-    favicon?: Function,
+  index?: Function,
+  favicon?: Function
 
 };
 

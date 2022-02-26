@@ -15,12 +15,12 @@ const debug = util.debuglog('server');
 interface Server { listen?: Function }
 
 interface ServerModel {
-    server?: Function,
-    router?: Object,
-    init?: Function,
-    httpsServerOptions?: Object,
-    httpServer?: Server,
-    httpsServer?: Server
+  server?: Function,
+  router?: Object,
+  init?: Function,
+  httpsServerOptions?: Object,
+  httpServer?: Server,
+  httpsServer?: Server
 }
 
 const serverModel: ServerModel = {};

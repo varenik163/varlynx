@@ -3,7 +3,7 @@ const server = require('./lib/server');
 // const cli = require('./lib/cli');
 
 interface App {
-    init?: () => void
+  init?: () => void
 }
 
 const app: App = {};

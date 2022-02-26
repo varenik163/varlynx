@@ -5,10 +5,10 @@ const path = require('path');
 const config = require('./config');
 
 type Helpers = {
-    getStaticAsset?: Function,
-    getTemplate?: Function,
-    addUniversalTemplates?: Function,
-    interpolate?: Function,
+  getStaticAsset?: Function,
+  getTemplate?: Function,
+  addUniversalTemplates?: Function,
+  interpolate?: Function,
 }
 
 const helpers: Helpers = {};
